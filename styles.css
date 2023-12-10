@@ -1,0 +1,143 @@
+* {
+    
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    
+    zoom: 150%;
+    height: 100vh;
+    display: flex;
+    margin-top: 150px; ;
+    justify-content: center;
+    
+    overflow:auto;
+    background-color: #e8c898;
+
+  }
+  h1{
+    position:absolute;
+    letter-spacing: 15px;
+    font-family:cursive;
+    top: 60px;
+    display: inline-block;
+    background-color: #daf59b;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #070505;
+    text-align: center;
+    font-size: 48px;
+    padding: 5px;
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+   
+   
+  }
+#alert-title-correct {
+    
+    bottom: 10%;
+   
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    position: absolute;
+    border-radius: 12px;
+    background: #fff;
+    padding: 20px 35px 20px 25px;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.1);
+    display: none;
+    border: 1px solid #000000;
+    background-color: #94da78;
+    color: #000000;
+    
+    
+  }
+
+  #alert-title-false {
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    position: absolute;
+    border-radius: 12px;
+    background: #fff;
+    padding: 20px 35px 20px 25px;
+    box-shadow:  6px 20px -5px rgba(0, 0, 0, 0.1);
+    display: none;
+    border: 1px solid #000000;
+    background-color: #f99090;
+    color: #000000;
+    
+  }
+
+.question-item div {
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    background-color: #cad0d9;
+    box-shadow:  6px 20px -5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-left: 8%;
+    font-weight: bold;
+    font-family:cursive;
+}
+
+div ol{
+    background-color: #b6d2e4;
+    border-radius: 9px;
+}
+
+.answer-item{
+    font-size: small;
+   
+}
+
+button{
+  display: inline-block;
+  background-color: #daf59b;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #080606;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+  
+}
+
+  /* .progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+  }
+  .progress-active::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 1%;
+    width: 100%;
+    background-color: #4070f4;
+    display: flex;
+    display: none;
+}
+  .progress-active::before {
+    animation: progress 5s linear forwards;
+  }
+  @keyframes progress {
+    100% {
+      right: 100%;
+    }
+} 
+  */
